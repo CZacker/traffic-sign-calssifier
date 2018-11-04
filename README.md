@@ -24,6 +24,7 @@ The goals / steps of this project are the following:
 [image8]: ./ReadmeImg/incepetion.png "Googlelenet Incepetion"
 [image9]: ./ReadmeImg/dropout.png "Dropout"
 [image10]: ./ReadmeImg/top_5.png "top_5"
+[image11]: ./ReadmeImg/prediction.png "prediction"
 
 ---
 ### README  
@@ -166,13 +167,13 @@ Here are the results of the prediction:
 
 | Image                 |     Prediction                                | 
 |:---------------------:|:---------------------------------------------:| 
-| Stop Sign             | Stop sign                                     | 
+| Road work             | Road work                                     | 
 | U-turn                | U-turn                                        |
 | Yield                 | Yield                                         |
-| 100 km/h              | Bumpy Road                                    |
-| Slippery Road         | Slippery Road                                 |
+| 30 km/h               | 30 km/h                                       |
+| etc.                  | etc.                                         |
 
-
+![prediction][image11]
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. (OPTIONAL: as described in the "Stand Out Suggestions" part of the rubric, visualizations can also be provided such as bar charts)
